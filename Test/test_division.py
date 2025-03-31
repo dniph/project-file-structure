@@ -1,4 +1,4 @@
-import division
+from calculator.division import divide
 
 def test_division():
     assert division.perform_operation(10, 5) == 2
